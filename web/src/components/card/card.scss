@@ -1,0 +1,12 @@
+.card {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-top: 8px;
+  transition: background-color 0.8s ease-out;
+
+  &:hover {
+    background-color: #fff;
+    transition: background-color 0.1s ease-in;
+  }
+}
